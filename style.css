@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(24,24,29);
+    padding: 30px;
+}
+
+
+/* .box-1 {
+    width: 10rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 30rem;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 30%;
+    position: relative;
+    left: 25.5rem;
+    top: 3.3rem;
+}
+
+.box-1 span {
+    color: red;
+} */
+
+/* .box-3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-3 h4 {
+    position: relative;
+    font-size: 15px;
+    left: 4.9rem;
+    top: 0.3rem;
+    font-family: Poppins;
+    color: white;
+}
+
+.box-3 h3 {
+    position: relative;
+    font-family: Arial;
+    left: -0.4rem;
+    top: 0.6rem;
+    font-size: 1.5rem;
+    color: white;
+} */
+
+.container {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box label {
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: -6.8rem;
+    padding-top: 0.3rem;
+}
+
+.box input {
+    border-radius: 5px;
+    border: 1px solid rgb(63, 62, 62);
+    background-color: rgb(24,24,29);
+    font-size: 1rem;
+    padding: 0.5rem 8rem;
+    padding-left: 6px;
+    font-size: 11px;
+    outline: none;
+    color: white;
+}
+/* .box-1 p {
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+    position: relative;
+    left: 1.5rem;
+    top: 2px;
+} */
+#lb{
+    /* border: 1px solid white; */
+    position: relative;
+    left: -7.3rem;
+}
+/* .logo{
+    width: 20%; height: 20%; display: flex;
+} */
+.box-2 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -1rem;
+    left: -5.5rem;
+    padding: 5px;
+}
+    
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border:1px solid white;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: -1px;
+    /* border: 2px solid #555555; */
+    border-radius: 3px;
+    background-color: rgb(24,24,29);
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /* color: white; */
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+
+.box-2 p {
+    padding-left: 8px;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    top: 2px;
+    /* background: none; */
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 0.7rem;
+    padding: 0.5rem 6.8rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.fa {
+    color: rgb(63, 62, 62);
+    position: relative;
+    bottom: 1.3rem;
+    left: 7rem;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:665px) {
+    /* .box-1 {
+        width: 10rem;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        left: 13.5rem;
+        padding-bottom: 20px;
+    } */
+
+    /* img {
+        width: 50%;
+        position: relative;
+        left: 10rem;
+        top: 3rem;
+    } */
+}
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 6rem;
+    /* border: 1px solid white; */
+}
+.left{
+    width: 3rem;
+    height: 3rem;
+    /* border: 1px solid green; */
+    /* margin-left:0.5 rem; */
+    position: relative;
+    top: -1rem;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    color: white;
+    width: 9rem;
+    font-family: Arial, Helvetica, sans-serif,poppins;
+    height: 5.5rem;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.right p{
+    /* color: white; */
+    font-size: 14px;
+    /* margin-top: 10px; */
+    position: relative;
+    /* left: 1.5rem; */
+    top: 7px;
+}
+.right h3{
+    position: relative;
+    font-family: Arial;
+    /* left: -0.4rem; */
+    /* top: 0.6rem; */
+    font-size: 1.6rem;
+    color: white;
+}
+.right h4{
+    position: relative;
+    font-size: 17px;
+    /* left: 4.9rem; */
+    /* top: 0.3rem; */
+    font-family: Poppins;
+    color: white;
+}
+.right span {
+    color: red;
+}
